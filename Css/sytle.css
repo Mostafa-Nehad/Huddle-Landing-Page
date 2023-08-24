@@ -64,17 +64,18 @@ button:hover{
   color: white;
   background-color: hsl(300, 69%, 71%);
 }
-footer{
+.icon-section{
   display: flex;
   justify-content: flex-end;
   width: 93%;
+  margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
 }
-footer .icons{
+.icon-section .icons{
   font-size: 1.3rem;
 }
-footer .icons i{
+.icon-section .icons i{
   width: 42px;
   border: 1px solid #fff;
   border-radius: 50%;
@@ -83,15 +84,10 @@ footer .icons i{
   text-align: center;
   padding: 10px;
 }
-footer .icons i:hover{
+.icon-section .icons i:hover{
   color: hsl(300, 69%, 71%);
   border-color: hsl(300, 69%, 71%);
 }
-@media (min-width:1260px){
-  footer{
-    margin-top: -40px;
-  }
-  }
 @media (max-width:1185px){
   .container{
     flex-direction: column;
@@ -140,12 +136,12 @@ footer .icons i:hover{
     .button{
       text-align: center;
     }
-    footer {
+    .icon-section {
       margin: 40px;
       margin-left: auto;
       margin-right: auto;
     }
-    footer .icons{
+    .icon-section .icons{
       margin-left: auto;
       margin-right: auto;
     }
